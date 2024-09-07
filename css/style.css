@@ -59,7 +59,7 @@ ul, ol {
     color: #404bbf;
 }
 
-.adr-contacts-mail-tel {
+.address-tag {
     font-style: normal;
 }
 
@@ -192,4 +192,8 @@ ul, ol {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.text-white {
+    color: #f4f4fd;
 }
