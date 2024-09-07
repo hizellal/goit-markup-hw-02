@@ -24,7 +24,6 @@ ul, ol {
 }
 
 .main-btn {
-    padding: 16px 32px;
     font-weight: 500;
     font-size: 16px;
     color: #fff;
@@ -32,6 +31,7 @@ ul, ol {
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    background-color: #4D5AE5
 }
 
 .main-btn:hover {
@@ -59,13 +59,16 @@ ul, ol {
     color: #404bbf;
 }
 
+.adr-contacts-mail-tel {
+    font-style: normal;
+}
+
 .adr-contacts-mail-tel .link {
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
     color: #434455;
     line-height: 150%;
-    font-style: normal;
     letter-spacing: 0.02em;
 }
 
@@ -91,10 +94,9 @@ ul, ol {
 
 .team-info .team-info-blocks .info-block {
     background: #fff;
-    text-align: center;
 }
 
-footer {
+.foot {
     background: #2e2f42;
 }
 
@@ -102,9 +104,11 @@ footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    color: #f4f4fd;
+    color: #4d5ae5;
     line-height: 117%;
     text-decoration: none;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .text-info {
@@ -112,6 +116,7 @@ footer {
     font-size: 16px;
     line-height: 150%;
     color: #f4f4fd;
+    letter-spacing: 0.02em
 }
 
 .main-title {
@@ -137,8 +142,54 @@ footer {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    color: #fff;
+    color: #2e2f42;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+}
+
+.portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team-info-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team-padding {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.apps-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.apps-info-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.apps-padding {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
